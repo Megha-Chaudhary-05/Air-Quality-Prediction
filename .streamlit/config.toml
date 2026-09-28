@@ -1,0 +1,16 @@
+# AirSense — native Streamlit theme.
+# The app also injects a stylesheet for finer control, but setting the theme
+# here means the page is dark from the first paint instead of flashing white.
+
+[theme]
+base = "dark"
+primaryColor = "#38bdf8"
+backgroundColor = "#07080c"
+secondaryBackgroundColor = "#12141c"
+textColor = "#e8ecf4"
+
+[server]
+maxUploadSize = 5
+
+[browser]
+gatherUsageStats = false

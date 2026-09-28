@@ -1,0 +1,53 @@
+{
+  "metrics": {
+    "mae": 126.0,
+    "rmse": 178.82,
+    "r2": 0.3823,
+    "mape": 82.25,
+    "holdout_mae_p90": 289.68
+  },
+  "features": [
+    "temperature_2m",
+    "relative_humidity_2m",
+    "wind_speed_10m",
+    "precipitation",
+    "month",
+    "hour",
+    "day",
+    "day_of_week",
+    "is_weekend"
+  ],
+  "meteo_features": [
+    "temperature_2m",
+    "relative_humidity_2m",
+    "wind_speed_10m",
+    "precipitation"
+  ],
+  "city": "Delhi",
+  "city_coords": [
+    28.6139,
+    77.209
+  ],
+  "train_rows": 15020,
+  "test_rows": 3756,
+  "train_range": [
+    "2020-11-25",
+    "2022-08-17"
+  ],
+  "test_range": [
+    "2022-08-17",
+    "2023-01-24"
+  ],
+  "feature_importance": {
+    "month": 0.20595,
+    "temperature_2m": 0.16744,
+    "wind_speed_10m": 0.14389,
+    "hour": 0.14345,
+    "day": 0.09098,
+    "is_weekend": 0.07561,
+    "day_of_week": 0.0668,
+    "relative_humidity_2m": 0.05896,
+    "precipitation": 0.04694
+  },
+  "trained_at": "2026-09-26 00:34"
+}
